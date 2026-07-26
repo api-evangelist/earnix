@@ -1,7 +1,27 @@
 aid: earnix
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/earnix.png
 name: Earnix
-description: Earnix is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Earnix provides an AI orchestration system (Earnix AIOS) purpose-built for
+  insurance and banking decisioning. The platform unifies pricing, an enterprise
+  rating engine, automated underwriting, and real-time customer engagement so
+  insurers and financial institutions can price smarter, underwrite faster, and
+  engage customers better. Earnix serves 100+ leading insurers worldwide,
+  processing billions of transactions annually and compressing rate creation
+  from months to days. Earnix is a portfolio company of Insight Partners. This
+  profile was enriched by the API Evangelist pipeline; Earnix is an enterprise
+  B2B vendor with no public self-serve developer portal or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/earnix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Insurance
+- InsurTech
+- Pricing
+- Rating
+- Underwriting
+- Banking
+- Financial Services
+- Decisioning
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/earnix-domain-security.yml
+- type: Website
+  url: https://earnix.com/
+- type: Blog
+  url: https://earnix.com/blog/
+- type: Support
+  url: https://earnix.com/support-portal/
+- type: PrivacyPolicy
+  url: https://earnix.com/privacy-policy/
+- type: TrustCenter
+  url: https://earnix.com/why-earnix/how-we-do-it/trust-center/
+- type: Compliance
+  url: https://earnix.com/why-earnix/how-we-do-it/trust-center/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
