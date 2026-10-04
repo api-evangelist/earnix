@@ -51,7 +51,7 @@ tags:
 - Ratings
 - Underwriting
 - Banking
-- Financial-Services
+- Financial Services
 - Decisioning
 - Artificial Intelligence
 tags_raw:
@@ -65,6 +65,7 @@ tags_raw:
 - Financial Services
 - Decisioning
 - Artificial Intelligence
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
