@@ -1,0 +1,28 @@
+generated: '2026-10-14'
+method: searched
+checked:
+- guidewire/integrations/guidewire-integration-edges.yml
+source:
+- guidewire/integrations/guidewire-integration-edges.yml
+edges:
+- partner_name: Guidewire (own)
+  partner: guidewire
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.guidewire.com/product/01tKj00000PvnP3IAJ/01tKj00000PvnP3IAJ
+  mirror_of: guidewire/integrations/guidewire-integration-edges.yml
+  apps:
+  - Earnix Accelerator for PolicyCenter 10
+  - Earnix Accelerator for Rating and Pricing for PolicyCenter
+  listing_count: 2
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Accelerator; Data & Reports; PolicyCenter
+  badges:
+  - Ready for Guidewire
+  - 'Partner tier: Premier'
